@@ -1,3 +1,21 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 3rem 30rem;
+    align-items: baseline;
+}
+
+.nav > p {
+    color: rgb(97, 95, 95);
+    font-family: 'Roboto', sans-serif;
+    text-decoration: underline;
+}
+
+.nav > h1 {
+    font-size: 50px;
+    text-decoration: underline;
+}
+
 .blog {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -22,6 +40,8 @@
 
 .card__body > h3 {
     margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
 }
 
 .blue-text {
@@ -34,6 +54,7 @@
 
 .card__body > p {
     margin: 0 0 6rem;
+    font-family: 'Roboto', sans-serif;
 }
 
 .card__body > h1 {
@@ -44,6 +65,7 @@
 .card__body > small {
     margin: 1px 0;
     color: rgb(97, 95, 95);
+    font-family: 'Roboto', sans-serif;
 }
 
 .continue-link {
@@ -52,3 +74,12 @@
     margin: 4rem 0 1rem 0;
 }
 
+.footer {
+    font-family: 'Roboto', sans-serif;
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(165, 165, 165, 0.39);
+    padding: 1.5rem;
+}
