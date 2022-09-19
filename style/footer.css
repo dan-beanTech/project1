@@ -1,0 +1,11 @@
+.footer {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(97, 95, 95);
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(218, 218, 218, 0.39);
+    padding: 1.5rem;
+    border-top: 2px solid rgb(224, 224, 224);
+}

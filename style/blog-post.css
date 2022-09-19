@@ -1,0 +1,128 @@
+.blog-post {
+    margin: 3rem 30rem;
+}
+
+.blog-post > h2 {
+    margin-bottom: -10px;
+}
+
+.blog-post > h1 {
+    margin-bottom: 3px;
+}
+
+.nav-blog {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.nav-blog > p {
+    color: rgb(97, 95, 95);
+    font-family: 'Roboto', sans-serif;
+    text-decoration: underline;
+}
+
+small {
+    color: rgb(97, 95, 95);
+
+}
+
+.nav-blog > h1 {
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+aside {
+    width: 25%;
+    padding-left: .5rem;
+    margin-left: .5rem;
+    float: right;
+    padding: 2px;
+    margin-bottom: 50vh;
+}
+
+aside li {
+    list-style: none;
+}
+
+aside > h2 {
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+aside > p {
+    margin-top: 0px;
+}
+
+
+.about {
+    background-color: rgba(240, 238, 238, 0.555);
+    padding: .5rem .5rem .5rem .75rem;
+}
+
+.blog-post__btn {
+    border-radius: 27px;
+    font-family: Arial;
+    font-weight: bold;
+
+    font-size: .75rem;
+    padding: 10px 20px 10px 20px;
+
+    text-decoration: none;
+    background-color: white;
+
+    margin-bottom: 3rem;
+}
+
+.blog-post__btn--older {
+    border: solid #47a0ff 2px;
+    color: #47a0ff;
+}
+
+.blog-post__btn--newer {
+    border: solid #81818163 2px;
+    color: #81818163;
+}
+
+.solid-divider {
+    border: 0.1rem solid rgba(104, 102, 102, 0.11);
+}
+
+.container-outlined{
+    border: 2px solid rgba(128, 128, 128, 0.425);
+    width: 52rem;
+    padding-bottom: 1rem;
+}
+
+.blog-post__codeblock {
+    outline: 2px solid rgba(128, 128, 128, 0.425);
+    display: block;
+    width: 52rem;
+}
+
+@media only screen and (max-width: 800px) {
+    .nav-blog {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .blog-post {
+        margin: 3rem 15rem;
+    }
+
+    .container-outlined{
+        width: 10rem;
+    }
+
+    .blog-post__codeblock {
+        width: 10rem;
+    }
+    aside {
+        width: 30%;
+        padding-left: .5rem;
+        margin-left: .5rem;
+        float: right;
+        padding: 2px;
+        margin-bottom: 50vh;
+    }
+}

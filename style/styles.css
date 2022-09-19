@@ -1,20 +1,8 @@
-.nav {
-    display: flex;
-    justify-content: space-between;
-    margin: 3rem 30rem;
-    align-items: baseline;
-}
+@import 'header.css';
+@import 'footer.css';
+@import 'blog-post.css';
 
-.nav > p {
-    color: rgb(97, 95, 95);
-    font-family: 'Roboto', sans-serif;
-    text-decoration: underline;
-}
 
-.nav > h1 {
-    font-size: 50px;
-    text-decoration: underline;
-}
 
 .blog {
     display: grid;
@@ -74,14 +62,9 @@
     margin: 4rem 0 1rem 0;
 }
 
-.footer {
-    font-family: 'Roboto', sans-serif;
-    color: rgb(97, 95, 95);
-    font-size: small;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: rgba(218, 218, 218, 0.39);
-    padding: 1.5rem;
-    border-top: 2px solid rgb(224, 224, 224);
+@media only screen and (max-width: 800px) {
+    .blog {
+        grid-template-columns: repeat(1, 1fr);
+        margin: 3rem 15rem;
+    }
 }
