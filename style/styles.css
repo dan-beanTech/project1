@@ -1,0 +1,54 @@
+.blog {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 1rem;
+    grid-row-gap: 2rem; 
+    margin: 3rem 30rem;
+}
+
+.blog__card {
+    border: 2.5px solid gainsboro;
+    padding: 2rem 2rem 0;
+    position: relative;
+}
+
+.card__body {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+
+}
+
+.card__body > h3 {
+    margin: 0;
+}
+
+.blue-text {
+    color: rgb(0, 119, 255);
+}
+
+.green-text {
+    color: rgb(59, 168, 26)
+}
+
+.card__body > p {
+    margin: 0 0 6rem;
+}
+
+.card__body > h1 {
+    margin: 1.5rem 0 0 0;
+    font-size: 30px;
+}
+
+.card__body > small {
+    margin: 1px 0;
+    color: rgb(97, 95, 95);
+}
+
+.continue-link {
+    position: absolute;
+    bottom: 0px;
+    margin: 4rem 0 1rem 0;
+}
+
